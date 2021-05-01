@@ -19,7 +19,7 @@ public class UserDTO implements Serializable {
 		name = obj.getName();
 		email = obj.getEmail();
 	}
-
+	
 	public String getId() {
 		return id;
 	}
